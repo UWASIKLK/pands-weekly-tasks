@@ -15,7 +15,7 @@
 ***
 ## **Week 01**
 
-The task for week 01 was to create a program _**helloworld.py**_ which would print out the "Hello World!" sentence when run. This was a very simple program using function **’print’**.
+The task for week 01 was to create a program _**helloworld.py**_ which would print out the "Hello World!" sentence when run. This was a very simple program using function ’print’.
 
 > [helloworld.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week01/helloworld.py)
 
@@ -55,7 +55,7 @@ The program does not run in "loop/while" mode (I wasn't sure how to do this at t
 #### String Slicing:
 [https://www.w3schools.com/python/python_strings_slicing.asp](https://www.w3schools.com/python/python_strings_slicing.asp)
 
-#### Week03 Lecture:
+#### Week 03 Lecture:
 [Wek03 Lecture](https://atlantictu-my.sharepoint.com/personal/andrew_beatty_atu_ie/_layouts/15/stream.aspx?id=%2Fpersonal%2Fandrew%5Fbeatty%5Fatu%5Fie%2FDocuments%2Fpands%20private%20%282024%29%2Fslides%2Fpands%203%2E2%20Fun%20with%20numbers%20and%20strings%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
 
 ---
@@ -128,7 +128,7 @@ The task for week 07 was to write a program that would read in a text file and o
 
 This program must import the ‘sys’ module to pass an argument from the command line. The sys.argv represent a list of command line arguments, where the sys.argv[0] returns the script name itself, and can be ignore. The sys.argv[1] returns the first argument passed at the command line.
 
-The program uses the open() function with an "r" to read the desired text file. To count how often both letters occur, use the count() function of lowercase "e" and uppercase "E". Separately prints occurrences of "e", "E", and overall.
+The program uses the 'open()' function with an "r" to read the desired text file. To count how often both letters occur, use the 'count()' function of lowercase "e" and uppercase "E". Separately prints occurrences of "e", "E", and overall.
 
 > [es.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week07/es.py)
 
