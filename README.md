@@ -1,7 +1,7 @@
 # **Pands Weekly Tasks**
 ***
 
-### This repository contains the programs related to the problems set in the weekly tasks for programming and Scripting module. It includes solutions and references.
+### This repository contains the programs related to the problems set in the weekly tasks for Programming and Scripting module. It includes solutions and references.
 ---
 ### **<ins>[The list of the programs:](https://github.com/UWASIKLK/pands-weekly-tasks/tree/main)</ins>**
 * **week01:** [helloworld.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week01/helloworld.py) (additional program - [NameandAge.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week01/NameandAge.py))
