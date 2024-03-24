@@ -1,7 +1,7 @@
 # **Pands Weekly Tasks**
 ***
 
-#### This repository contains the programs related to the problems set in the weekly tasks for programming and Scripting module. It includes solutions and references.
+### This repository contains the programs related to the problems set in the weekly tasks for programming and Scripting module. It includes solutions and references.
 ---
 ### **[The list of the programs:](https://github.com/UWASIKLK/pands-weekly-tasks/tree/main)**
 * **week01:** [helloworld.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week01/helloworld.py) (additional program - [NameandAge.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week01/NameandAge.py))
@@ -15,20 +15,20 @@
 ***
 ## **Week 01**
 
-#### The task for week 01 was to create a program **_helloworld.py_** which would print out the "Hello World!" sentence when run. This was a very simple program using function **’print’**.
+#### The task for week 01 was to create a program _**helloworld.py**_ which would print out the "Hello World!" sentence when run. This was a very simple program using function **’print’**.
 
 > [helloworld.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week01/helloworld.py)
 
 ---
 ## **Week 02**
 
-#### The task for week 02 was to create a program **_bank.py_** which would prompt the user to insert the two money amounts in cents. The program will add the two amounts and print out answer with euro sign and decimal point between the euro and cent.
+#### The task for week 02 was to create a program _**bank.py**_ which would prompt the user to insert the two money amounts in cents. The program will add the two amounts and print out answer with euro sign and decimal point between the euro and cent.
 
 #### This program will not verify that the entered values are correct. There is no control mechanism set up to check whether values are positive integers, floating numbers, or strings. If you select either of these options, the program sends an error message.
 
 > [bank.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week02/bank.py)
 
-### **Resources / References:**
+### **<ins>Resources / References:</ins>**
 
 #### Unicode for Euro Symbol: 
 [https://www.fileformat.info/info/unicode/char/20ac/index.htm](https://www.fileformat.info/info/unicode/char/20ac/index.htm)
@@ -41,7 +41,7 @@
 ---
 ## **Week 03**
 
-#### The task for week 03 was to create the program which can sort out 10-character string of bank account numbers but for security reason we will display only the last 4 characters (the fist 6 digits will be replaced with ’X’ letter). We will name this program **_accounts.py_**. 
+#### The task for week 03 was to create the program which can sort out 10-character string of bank account numbers but for security reason we will display only the last 4 characters (the fist 6 digits will be replaced with ’X’ letter). We will name this program _**accounts.py**_. 
 
 #### This program will prompt the user to enter an account number with 10 digits and it will convert the entered data into a string. It then checks the length of the input (by using len() function) and applying if /elif/else to further check the data entered. When everything is in order, it prints the account number, where the first 6 digits are replaced with "X" and the last 4 characters are displayed according to the input.
 
@@ -50,7 +50,7 @@
 
 > [accounts.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week03/accounts.py)
 
-### **Resources / References:**
+### **<ins>Resources / References:</ins>**
 
 #### String Slicing:
 [https://www.w3schools.com/python/python_strings_slicing.asp](https://www.w3schools.com/python/python_strings_slicing.asp)
@@ -61,13 +61,13 @@
 ---
 ## **Week 04**
 
-#### The task of week 04 was to write a program called **_collatz.py_**. This program asks the user to enter only a positive integer and perform the following calculation. At each step, calculate the next value by taking the current value and adding, if it is even number, divide it by two, but if it is odd number, multiply it by three and add one. Let the program exit if the current value is one.
+#### The task of week 04 was to write a program called _**collatz.py**_. This program asks the user to enter only a positive integer and perform the following calculation. At each step, calculate the next value by taking the current value and adding, if it is even number, divide it by two, but if it is odd number, multiply it by three and add one. Let the program exit if the current value is one.
 
 #### My program uses a function that first checks if the inserted number is positive. If the entered number is positive, it performs the calculation as shown above until the current value is one. All calculation results are stored in a list. The function is called up at the end and the results are displayed.
 
 > [collatz.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week04/collatz.py)
 
-### **Resources / References:**
+### **<ins>Resources / References:</ins>**
 
 #### Collatz conjecture sequence:
 
@@ -78,13 +78,13 @@
 ---
 ## **Week 05**
 
-#### The task of week 05 was to write a program called **_weekday.py_**.  This program will determine whether today is a weekend day or a day of the week.
+#### The task of week 05 was to write a program called _**weekday.py**_.  This program will determine whether today is a weekend day or a day of the week.
 
 #### The program first imports the ‘datetime’ module.  To find out which day is today, the program uses the function 'datetime.now()' and prints the result. I set up two string variables, one with weekend days and the other with weekdays. The program uses if/elif/else to determine whether today belongs to weekends or days of the week and print out result.
 
 > [weekday.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week05/weekday.py)
 
-### **Resources / References:**
+### **<ins>Resources / References:</ins>**
 
 #### How to get current date:
 
@@ -113,7 +113,7 @@
 
 > [squareroot.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week06/squareroot.py)
 
-### **Resources / References:**
+### **<ins>Resources / References:</ins>**
 
 #### Square root - Newton's method:
 
@@ -131,7 +131,7 @@
 
 > [es.py](https://github.com/UWASIKLK/pands-weekly-tasks/blob/main/week07/es.py)
 
-### **Resources / References:**
+### **<ins>Resources / References:</ins>**
 
 #### sys.argv:
 
@@ -142,7 +142,7 @@
 ---
 ## **Week 08**
 
-#### The task for week 08 is to create program called **_plottask.py_** that display:
+#### The task for week 08 is to create program called _**plottask.py**_ that display:
 - A histogram of a normal distribution of a 1000 values with a mean of 5 and standard deation of 2
  - And a plot of the function h(x) = x^3
 #### On the one set of axes.
@@ -152,7 +152,7 @@
 
 > [plottask.py](https://github.com/UWASIKLK/pands-weekly-tasks/tree/main/week08)
 
-### **Resources / References:**
+### **<ins>Resources / References:</ins>**
 
 #### Random seed:
 
