@@ -9,7 +9,12 @@ numberB = int(input("Insert second amount in cents: "))
 sum = numberA + numberB
 ''''print(sum) '''
 
-result = sum / 100
-''''print(result)'''
+euro = sum //100  # this will get the total number of euros
+cent = sum % 100 # this will get us the number of cents remaining.
 
-print('The result is €', result)
+print(f'The result is \u20ac{euro}.{cent:.02d}') #this will print out the total amount
+# in euro, using the Unicode for euro symbol (u20ac)
+# the :02d means that it will use 2 decimal places for cents
+
+
+

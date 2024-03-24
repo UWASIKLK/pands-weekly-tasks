@@ -1,5 +1,6 @@
 #This program will ask user to input the positivie floating number
 # it will calculate the approximate sqare root of entered number
+# author: Katarina Sikloyova
 
  # this works but doesn't use function
 

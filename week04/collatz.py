@@ -1,6 +1,6 @@
 # program will ask to input positive integer
-# it will outputs the successive valusee of the following calculation:
-# at each sep caulcuate the next value by taking the current value and
+# it will outputs the successive values of the following calculation:
+# at each sep calculate the next value by taking the current value and
 # if it si even, divide it by 2
 # if it si odd, multiply by 3 and add 1
 # author: Katarina Siklodyova
@@ -25,7 +25,7 @@ def fun (number):
     return list
 
 integer = int(input("Please enter a postivie integer: ")) #asking user to input the number
-print(fun (integer))  # calling the function
+print (fun(integer))  # calling the function - printing out result
 
 
 

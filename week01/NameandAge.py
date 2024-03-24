@@ -1,6 +1,7 @@
 #NameandAge.py
 #this will request your name and your age
 #program will print out both in on sentence
+#author: Katarina Siklodyova
 
 '''
 name = input("What is your name?  ")  
