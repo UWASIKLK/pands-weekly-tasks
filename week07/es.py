@@ -12,8 +12,8 @@ import sys  # importing sys module
 with open (sys.argv[1], "r") as f:  # opening the file
     text = f.read()
     letter_e = text.count ("e")     #counting lowercase letter e
-    letter_E = text.count ("E")     #counting capital letter E
+    letter_E = text.count ("E")     #counting uppercase letter E
 
 print(f"In this text, the lovercase 'e' occured: {letter_e} times.") # printint out 'e'
-print(f"The capital 'E' occured: {letter_E} times.") # printing out 'E' 
+print(f"The uppercase 'E' occured: {letter_E} times.") # printing out 'E' 
 print(f"The total of letters 'E & e' in this text is: {letter_E + letter_e}.") # printing out totals e + E
